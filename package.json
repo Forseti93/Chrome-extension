@@ -1,0 +1,28 @@
+{
+  "name": "digital-forge-22_chrome-extensions_basics",
+  "version": "1.0.0",
+  "description": "All official google's tutorials, combined into one public GitHub repository. Jul-2025.",
+  "homepage": "https://github.com/Forseti93/Chrome-extension#readme",
+  "bugs": {
+    "url": "https://github.com/Forseti93/Chrome-extension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forseti93/Chrome-extension.git"
+  },
+  "license": "ISC",
+  "author": "Serhii Lavrenov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "chrome-types": "^0.1.366"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.1",
+    "typescript": "^5.9.0-dev.20250730"
+  }
+}
