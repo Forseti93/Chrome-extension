@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["es5", "es2015", "dom", "dom.iterable"], 
+    "types": ["chrome"]
+  },
+  "include": ["src"]
+}

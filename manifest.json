@@ -1,0 +1,10 @@
+{
+  "name": "Chrome Extensions Tutorial",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/digital_forge_22_learning.png"
+  }
+}
