@@ -3,7 +3,13 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "images/digital_forge_22_learning.png",
+    "48": "images/digital_forge_22_learning.png",
+    "128": "images/digital_forge_22_learning.png"
+  },
   "action": {
+    "default_title": "Digital Forge 22 - learning",
     "default_popup": "popup/popup.html",
     "default_icon": "images/digital_forge_22_learning.png"
   }
