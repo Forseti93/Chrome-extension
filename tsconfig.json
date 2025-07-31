@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "lib": ["es2020", "dom", "dom.iterable"],
     "forceConsistentCasingInFileNames": true,
     "types": ["chrome"],
     "outDir": "./",
-    "rootDir": "./src",
+    "rootDir": "./",
     "sourceMap": true
   },
-  "include": ["src/**/*"],
+  "include": ["**/*"],
   "exclude": ["node_modules"]
 }

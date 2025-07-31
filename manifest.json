@@ -1,10 +1,11 @@
 {
   "name": "Chrome Extensions Tutorial",
-  "description": "Base Level Extension",
+  "description": "Chrome Extensions - basics",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
     "16": "images/digital_forge_22_learning.png",
+    "32": "images/digital_forge_22_learning.png",
     "48": "images/digital_forge_22_learning.png",
     "128": "images/digital_forge_22_learning.png"
   },
@@ -12,5 +13,11 @@
     "default_title": "Digital Forge 22 - learning",
     "default_popup": "popup/popup.html",
     "default_icon": "images/digital_forge_22_learning.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://*", "http://*"]
+    }
+  ]
 }
