@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "./built",
-    "allowJs": true,
     "target": "es5",
-    "lib": ["es5", "es2015", "dom", "dom.iterable"], 
-    "types": ["chrome"]
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["chrome"],
+    "outDir": "./",
+    "rootDir": "./src",
+    "sourceMap": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
