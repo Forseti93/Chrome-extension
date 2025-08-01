@@ -1,4 +1,20 @@
 "use strict";
-window.alert("Popup opened");
-console.log("testing log");
+window.alert('Check the file "popup/popup.ts"');
+function textTypeChange(event) {
+  const target = event.target;
+  if (!target) return;
+  const selectedValue = target.value.toLowerCase();
+  switch (selectedValue) {
+    case "complex":
+      break;
+    case "simple":
+      break;
+    default:
+      break;
+  }
+}
+const textDifficultyElement = document.getElementById("text-difficulty");
+if (textDifficultyElement) {
+  textDifficultyElement.addEventListener("change", (e) => textTypeChange(e));
+}
 //# sourceMappingURL=popup.js.map
