@@ -16,8 +16,8 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
-      "matches": ["https://*", "http://*"]
+      "js": ["scripts/article_time_to_read.js"],
+      "matches": ["https://*/", "http://*/"]
     }
   ]
 }
