@@ -1,5 +1,3 @@
-window.alert('Check the file "popup/popup.ts"');
-
 interface TextTypeChangeEvent extends Event {
   target: HTMLSelectElement & EventTarget;
 }

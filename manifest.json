@@ -16,8 +16,20 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/article_time_to_read.js"],
+      "js": ["content_scripts/article_time_to_read.js"],
       "matches": ["*://*/*"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background_scripts/background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  },
+  "permissions": ["scripting", "activeTab"]
 }

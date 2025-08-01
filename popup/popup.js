@@ -1,5 +1,4 @@
 "use strict";
-window.alert('Check the file "popup/popup.ts"');
 function textTypeChange(event) {
     const target = event.target;
     if (!target)
