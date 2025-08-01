@@ -1,7 +1,69 @@
 <html>
 
+<head>
+  <style>
+    h1 {
+      color: #007BFF;
+      margin: 0;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a {
+      color: #28A745;
+      margin: 0;
+    }
+
+    body {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+      color: #212529;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    ol {
+      padding-left: 10px;
+    }
+
+    #popup-wrapper {
+      padding: 28px;
+    }
+
+    #text-difficulty {
+      margin-top: 18px;
+    }
+
+    #useful-links {
+      margin-top: 14px;
+    }
+  </style>
+</head>
+
 <body>
-  <h1>Digital forge 22 - learning</h1>
+  <div id="popup-wrapper">
+    <h1>Digital forge 22 - learning</h1>
+    <h2 id="useful-links">Reading time counter settings</h2>
+    <span>Text type: </span><select name="text-difficulty" id="text-difficulty">
+      <option value="complex">Complex</option>
+      <option value="simple">Simple</option>
+    </select>
+    <h2 id="useful-links">Useful links</h2>
+    <ol>
+      <li>Official chrome extension tutorials - <a
+          href="https://developer.chrome.com/docs/extensions/get-started#tutorials" target="_blank">Link</a></li>
+      <li>GitHub with chrome extensions - <a
+          href="https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples"
+          target="_blank">Link</a></li>
+    </ol>
+  </div>
   <script src="popup.js"></script>
 </body>
 
