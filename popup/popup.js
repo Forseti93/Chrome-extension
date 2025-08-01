@@ -1,4 +1,3 @@
 "use strict";
-window.alert("Popup opened");
-console.log("testing log");
+window.alert('Check the file "popup.ts"');
 //# sourceMappingURL=popup.js.map
